@@ -12,7 +12,6 @@ void main () {
   // "String?" 에서는 null insert 가능!
   String? test2 = 'test2';
   test2 = null;
-  print(test2!); // (test2 는 현재 null 이 아니다 라는 의미) => exception ^__^
-
-  // final, const ...
+  print(test2);
+  // print(test2!); // (test2 는 현재 null 이 아니다 라는 의미) => exception ^__^
 }
